@@ -1,0 +1,796 @@
+<!--
+    Helen's Personal Website
+
+    Helen Cui
+    October 2025 -- present
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- =====GOOGLE FONTS===== -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Petit+Formal+Script&display=swap" rel="stylesheet">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Helen Cui - Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Helen</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="mailto:helcui04@gmail.com" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+    
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Helen</span><br> a Product Manager,<br>Designer,<br>and Researcher</h1>
+
+                    <a href="mailto:helcui04@gmail.com" class="button">Contact</a>
+                </div>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/helenhcui/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/hcui27" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Helen Cui</h2>
+                        <p class="about__text">I'm a product manager, developer, designer, and researcher (bit of a mouthful). I’m a junior at Dartmouth College studying Computer Science and Studio Art, with a minor in Digital Arts.<br><br>I love communicating and translating the technical to the non-technical, leveraging my high level understanding with a background in Computer Science to make meaningful impacts on my teams and users.<br><br>Wanna chat more? Reach out at helcui04[at]gmail.com</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text">My languages, tools, and skills</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-code-alt skills__icon'></i>
+                                <span class="skills__name">Python, C, Java, Bash</span>
+                            </div>
+                            <div class="skills__bar skills__bar--95">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-data skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__bar--75">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-brain skills__icon'></i>
+                                <span class="skills__name">Hugging Face</span>
+                            </div>
+                            <div class="skills__bar skills__bar--55">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-chip skills__icon'></i>
+                                <span class="skills__name">PyTorch</span>
+                            </div>
+                            <div class="skills__bar skills__bar--55">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-group skills__icon'></i>
+                                <span class="skills__name">Agile</span>
+                            </div>
+                            <div class="skills__bar skills__bar--85">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-user-circle skills__icon'></i>
+                                <span class="skills__name">Human Computer Interaction</span>
+                            </div>
+                            <div class="skills__bar skills__bar--75">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">UI/UX</span>
+                            </div>
+                            <div class="skills__bar skills__bar--75">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bx-layout skills__icon'></i>
+                                <span class="skills__name">Figma</span>
+                            </div>
+                            <div class="skills__bar skills__bar--75">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <!----Dalí Museum---->
+                    <div class="work__card mix projects">
+                        <img src="assets/img/dali_eyetracker.png" alt="Participant viewing experience at Technigala" class="work__img" id="#">
+                        <h3 class="work__title">Dalí Museum: How Do I Look</h3>
+
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Dalí Museum: How Do I Look?</h3>
+
+                                <p class="services__modal-description">
+                                 An eyetracking exhibit that let's users better engage with how their
+                                 own eyes might look at the paintings around them. 
+                                 <br><br>
+                                 I took over the project and managed the expansion from one user flow
+                                 to three, including two used for research purposes at USF.
+                                 <br><br>
+                                 Check out the links below for more details!
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Eye tracking exhibit in Dalí Museum expanded for didactic study at USF
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Collaborated with two teammates as Product Manager, ultimately shipping and deploying fullstack Admin Dashboard and dynamic Unity Experience App.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Incorporated Tobii Nano Pro Spark Eyetracker
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Tools: C#, Bash, HTML, CSS, MongoDB, Unity
+                                        </p>
+                                    </li>
+
+                                    <br>
+                                    
+                                </ul>
+                                <div class="home__buttons">
+                                        <a href="https://github.com/orgs/dali-lab/teams/dali-museum-exhibit/repositories" target="_blank" class="button">View Project on GitHub</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!----AR AI Airways---->
+                    <div class="work__card mix projects">
+                        <img src="assets/img/arairways.png" alt="Our partner and a team member at the conference!" class="work__img" id="#">
+                        <h3 class="work__title">AR AI Airways: Intubation Training Solution for Rural Vermont Doctors</h3>
+
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">AR AI Airways</h3>
+
+                                <p class="services__modal-description">
+                                 Many paramedics, doctors, and healthcare professionals do not come across difficult intubation scenarios (ex: bloody or obstructed) when receiving airway maintenance training. While these individuals do learn the techniques for a standard intubation, this training often falls short when they are come across a non-standard, difficult airway scenarios and more stressful environments. 
+                                 <br> 
+                                 <br>
+                                 We evaluated this issue from the standpoint of three stakeholders: Emergency Medicine Practitioners and Emergency Medical Researchers.
+                                 <br>
+                                 <br>
+                                 The final solution was a high-fidelity, easy-to-transport difficult airway augmented reality intubation simulation that will be compatible with standard manikins and can be used in areas that vary in resources. 
+                                 We were able to bring a prototype to the conference of the Society of American Emergency Medicine and will be user testing with paramedics!
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            We integrated sensor and laryngoscope live video feed into the Metaquest experience.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Implemented a dependency graph for gameplay and performance scoring.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Witt API integration to evaluate voice commands from users via virtual "nurse".
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Tools: Raspberry Pi, Bash, Unity, Metaquest
+                                        </p>
+                                    </li>
+
+                                    <br>
+                                    
+                                </ul>
+                                <!-- temporarily inactive, will wait for publication -->
+                                <!-- <div class="home__buttons">
+                                        <a href="#TO DO" target="_blank" class="button">View Project on GitHub</a>
+                                </div> -->
+
+                            </div>
+                        </div>
+                    </div>
+                    <!----RISC---->
+                    <div class="work__card mix projects">
+                        <img src="assets/img/risc.png" alt="Figure of the research pipeline used in Snapshot CWToF Technique" class="work__img" id="#">
+                        <h3 class="work__title">Rendering and Imaging Sciences Lab (RISC): Depth Diffusion Modeling</h3>
+
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Rendering and Imaging Sciences Lab</h3>
+
+                                <p class="services__modal-description">
+                                 I explored and experimented with fine tuning an existing Marigold DC model, 
+                                 implementing my own code into an existing LiDAR model and evaluated how diffusion modeling 
+                                 could improve depth images. 
+                                 <br>
+                                 <br>
+                                 My research has led me to a deeper understanding of GANs, diffusion models, and zero shot monocular depth estimation. 
+                                 I was also fortunate enough to receive $2,750 in grants to support my research.
+
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Collaborated on a CVPR published paper.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Used Fourier embedding of amplitude and phase for single image depth reconstruction.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Gained profound knowledge in the field of computational photography and continuous wave time of flight technology.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Tools: Python, PyTorch, MatPlotLib, Jupyter Notebook, HuggingFace, LiDAR
+                                        </p>
+                                    </li>
+
+                                    <br>
+                                    
+                                </ul>
+                                <div class="home__buttons">
+                                        <a href="https://sarahkfriday.github.io/snapshot-lidar/" target="_blank" class="button">View Project on GitHub</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!----Stamps ---->
+                    <div class="work__card mix projects">
+                        <img src="assets/img/stamps.png" alt="#TO DO" class="work__img" id="#">
+                        <h3 class="work__title">Stamps Scholarship Recipient: Art and AI</h3>
+
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Art and AI</h3>
+
+                                <p class="services__modal-description">
+                                 New advancements in generative AI art have sparked conversations about the substitution of artists and designers. Yet, this narrow discourse ignores the large range of artists that employ AI and are growing to employ AI as a critical part of their artistic repertoire. I proposed a project that sought to survey the emerging engagement between artists and AI in how they currently use these technologies and the breadth of how artists do so. The eventual goal in this project is to utilize AI in my final seminar as a Studio Art major and to synthesize this de-facto user-experience research into a thesis as a Computer Science major. Throughout the timeline of this project, AI will be viewed in four main ways: co-creator, subject, practice, or tool over the course of this investigation.
+                                 <br>
+                                 <br>
+                                 My existing efforts to accomplish these goals, I have interviewed 10+ current practicing artists that use AI in their work 
+                                 including Whitney featured artist Maya Man and Software Studies scholar Winnie Soon. Moreover, I have 
+                                 taken courses like Artificial Intelligence, Human Computer Interaction, and Audio Visual Installation to support these efforts.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Awarded $20K in funds to pursue research interests.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Conducted a lengthy literature review of field, critically evaluating literature on the ethics of AI, defining creativity, media arts, and software studies.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Traveled to exhibitions in Los Angeles and Hong Kong to see pieces in real life.
+                                        </p>
+                                    </li>
+
+
+                                    <br>
+                                    
+                                </ul>
+                                <div class="home__buttons">
+                                        <a href="https://students.dartmouth.edu/surfd/scholar-programs/stamps-scholars/current-stamps-scholars" target="_blank" class="button">View Project on GitHub</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!----Project Greenlight---->
+                    <div class="work__card mix projects">
+                        <img src="assets/img/pgl.png" alt="My work featured in 1960 Curatorial Exhibition at Dartmouth College" class="work__img" id="#">
+                        <h3 class="work__title">Project Greenlight Grant Recipient: <br>Physicality and Hedonism</h3>
+
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Project Greenlight</h3>
+
+                                <p class="services__modal-description">
+                                 For six months I worked on the creation of four sculptures that combine together to form one installation. These four sculptures serve as artefacts that probe the Greek spaces they inhabit to see how people make their spaces and how spaces make their people. They are welded pieces with a facade of expanding foam, found objects, and spray paint. They currently reside in Kappa Delta Epsilon, the Tabard, Panarchy, and Bones Gate, and will be disposed of after this project as they acted as temporary installations. 
+                                 <br>
+                                 <br>
+                                 In order to create these four sculptures, I created clay miniatures, made Rhino models, welded steel frames, negotiated installation spaces, and entered the pieces into exhibition. I was also given the opportunity to present to the class of '68 for the midterm and concluding reports.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Commissioned by Dartmouth College to create and install 4 public sculptures on campus to explore excess in recreational spaces.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Awarded $5K to support efforts and pay for supplies.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Collaboration with sculpture technicians and advisors to create critical artwork.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Tools: Metalworking, Installation, Found Art Sculpture, Adobe Premiere Pro
+                                        </p>
+                                    </li>
+
+                                    <br>
+                                    
+                                </ul>
+                                <div class="home__buttons">
+                                        <a href="https://drive.google.com/file/d/1J58ugnDK5hIY_rRP3-LCc-ZEAksE3L5z/view?usp=sharing" target="_blank" class="button">View the Final Report</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!----Nudge---->
+                    <div class="work__card mix projects">
+                        <img src="assets/img/nudge.png" alt="#TO DO" class="work__img" id="#">
+                        <h3 class="work__title">Nudge: Nonchalantly to meet new friends at Dartmouth</h3>
+
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Nudge</h3>
+
+                                <p class="services__modal-description">
+                                    We interview Dartmouth students and looked to solve the issue 
+                                    that upperclassmen at Dartmouth feel stagnant about their existing social groups.
+                                    <br>
+                                    <br> 
+                                    They want to meet new people but aren't incentivized to take on the social risk. 
+                                    <br>
+                                    <br>
+                                    We sought to solve this issue with an app that had community driven features, 
+                                    allowed users to "nudge" people they wanted to meet, and add friend-crushes.
+                                 
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Collaborated with three UI/UX designers
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Conducted 13 user interviews of Dartmouth students, narrowing down 
+                                            on isolated upperclassmen
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Brainstormed using different frameworks like user profiles and journeys
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            We greyscaled and prototyped interactions as well as A/B testing our product
+                                        </p>
+                                    </li>
+
+                                    <br>
+                                    
+                                </ul>
+                                <div class="home__buttons">
+                                        <a href="https://www.figma.com/proto/Z7lOseUd4ppv7tdYTwz1mN/Nudge?page-id=4476%3A275&node-id=8214-4040&p=f&viewport=478%2C-6410%2C0.35&t=W9ACe5KFgPCNmn5r-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=8214%3A4040" target="_blank" class="button">View the Prototype on Figma</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!----ChessBot---->
+                    <div class="work__card mix projects">
+                        <img src="assets/img/chess.png" alt="#TO DO" class="work__img" id="#">
+                        <h3 class="work__title">COSC76: Minimax ChessBot</h3>
+
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Minimax ChessBot</h3>
+
+                                <p class="services__modal-description">
+                                 Developed and implemented Minimax and Alpha-Beta pruning algorithms for game-playing AI using recursive approaches. Both implementations shared a common architecture that included depth control for iterative deepening, node visit tracking for performance analysis, and toggleable versions to switch between iterative and non-iterative execution modes.
+                                 <br>
+                                 <br>
+                                 Integrated a transposition table as a hash-based caching system to optimize performance by storing and retrieving previously evaluated game states, eliminating redundant computations. The core Minimax algorithm checked the transposition table before evaluating positions, implemented cutoff tests based on depth limits and game-over conditions, and recursively scored legal moves to select optimal plays for both maximizing and minimizing players.
+                                 <br>
+                                 <br>
+                                 Extended the Minimax implementation to Alpha-Beta pruning by incorporating alpha and beta parameters for branch pruning, significantly improving search efficiency. Designed and tested multiple heuristic evaluation functions, including a Null Move Heuristic, to experiment with different AI decision-making strategies and compare their effectiveness in gameplay scenarios.
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Successfully implemented Minimax algorithm with Alpha Beta pruning.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Created multiple different heuristics for the chess program including a capture target heuristics.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Evaluated the performance of the algorithm at different depths, including with implemented iterative deepening.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Tools: Python, Python-Chess, Minimax, Alpha Beta Pruning, Good Old Fashioned AI
+                                        </p>
+                                    </li>
+
+                                    <br>
+                                    
+                                </ul>
+                                <!-- <div class="home__buttons">
+                                        <a href="" target="_blank" class="button">View Project on GitHub</a>
+                                </div> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!----Tiny Search Engine---->
+                    <div class="work__card mix projects">
+                        <img src="assets/img/tse.png" alt="Graphic of a search engine" class="work__img" id="#">
+                        <h3 class="work__title">COSC50: Tiny Search Engine</h3>
+
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Tiny Search Engine</h3>
+
+                                <p class="services__modal-description">
+                                 Three-module web search engine in C: crawler (retrieves & stores webpages with depth limits), indexer (builds word-to-document lookup tables), and query engine (processes search requests with ranking). Modular design with shared libraries for page management and data structures.
+                                 <br>
+                                 <br>
+                                 I later got to TA this class and explain these algorithms to CS students!
+                                 <br>
+                                 <br>
+                                 Want to try it out? Click the button below!
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Three parts for functionality: crawler, indexer, and querier
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Tools: C, Bash, Linux
+                                        </p>
+                                    </li>
+
+                                    <br>
+                                    
+                                </ul>
+                                <div class="home__buttons">
+                                        <a href="https://github.com/hcui27/Tiny-Search-Engine" target="_blank" class="button">View Project on GitHub</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <!---Hidden Markhov Models--->
+                    <div class="work__card mix projects">
+                        <img src="assets/img/hmm.png" alt="Example of a state graph" class="work__img" id="#">
+                        <h3 class="work__title">COSC10: Hidden Markhov Models</h3>
+
+
+                        <span class="services__button">
+                            See more <i class='bx bx-right-arrow-alt services__icon' ></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <i class='bx bx-x services__modal-close' ></i>
+
+                                <h3 class="services__modal-title">Tiny Search Engine</h3>
+
+                                <p class="services__modal-description">
+                                 Java implementation of part-of-speech tagging using Hidden Markov Models and Viterbi algorithm. Trains on Brown corpus, handles word ambiguity through statistical analysis. Includes transition/observation probabilities, unseen word handling, and performance evaluation on test data.
+                                 <br>
+                                 <br>
+                                 I later got to TA this class and explain these algorithms to CS students!
+                                </p>
+
+                                <ul class="services__modal-list">
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                          Trained on Brown corpus and the Constitution texts.  
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                          In terminal functionality after training. 
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-item">
+                                        <i class='bx bx-check services__modal-icon'></i>
+                                        <p class="services__modal-info">
+                                            Tools: Java, Viterbi, Hidden Markhov Model, Infinite Automata
+                                        </p>
+                                    </li>
+
+
+                                    <br>
+                                    
+                                </ul>
+                                <div class="home__buttons">
+                                        <a href="https://github.com/hcui27/POS-Tagger-with-HMM-Viterbi-" target="_blank" class="button">View Project on GitHub</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </section>
+
+            
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Helen</p>
+            <div class="footer__social">
+                <a href="https://www.instagram.com/hel.strokes/?__d=1" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/helenhcui/" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/hcui27" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <p class="footer__copy">&#169; Helen Cui. All rights reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
